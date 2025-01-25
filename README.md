@@ -23,7 +23,7 @@ A Node.js application that integrates Groq and Gaianet AI services for interacti
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Galkurta/Gaia-BOT.git
+git clone https://github.com/anantaabdlh/Gaia-BOT.git
 cd Gaia-BOT
 ```
 
