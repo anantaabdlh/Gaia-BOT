@@ -39,7 +39,7 @@ npm install
 
 ### 1. Gaianet Setup
 
-1. Register at [Gaianet](https://www.gaianet.ai/gaia-domain-name?referralCode=RoqVKI)
+1. Register at [Gaianet](https://www.gaianet.ai/gaia-domain-name?referralCode=R5NUx0)
 2. Install node
 3. After install node go to `https://your node id.us.gaianet.network`
 4. Open browser Developer Tools (F12)
@@ -50,13 +50,13 @@ npm install
 
 ### 2. Groq Setup
 
-1. Visit [Groq Console](https://console.groq.com/keys)
+1. Visit [OPENAI Console](https://platform.openai.com/settings/organization/api-keys)
 2. Create a new API key
 3. Copy the API key and replace it in `main.js`:
 
 ```javascript
 const API_KEYS = {
-  GROQ: "your_groq_api_key_here",
+  OPENAI: "your_openai_api_key_here",
 };
 ```
 
