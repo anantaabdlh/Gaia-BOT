@@ -41,14 +41,14 @@ npm install
 
 1. Register at [Gaianet](https://www.gaianet.ai/gaia-domain-name?referralCode=R5NUx0)
 2. Install node
-3. After install node go to `https://your node id.us.gaianet.network`
+3. After install node go to `https://your node id.gaia.domains`
 4. Open browser Developer Tools (F12)
 5. Send one test message
 6. In Network tab, find request to `/v1/chat/completions`
 7. From request headers, copy the Bearer token value
 8. Paste the token into `data.txt`
 
-### 2. Groq Setup
+### 2. OPENAI Setup
 
 1. Visit [OPENAI Console](https://platform.openai.com/settings/organization/api-keys)
 2. Create a new API key
