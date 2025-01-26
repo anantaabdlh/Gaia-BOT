@@ -7,7 +7,7 @@ import { CountdownTimer } from "./config/countdown.js";
 import { logger } from "./config/logger.js";
 
 const API_CONFIG = {
-  GAIA_DOMAIN: "maplesyrup",
+  GAIA_DOMAIN: "porka",
   BASE_URL: "gaia.domains",
   ENDPOINT: "/v1/chat/completions",
   ORIGIN: "https://www.gaianet.ai",
@@ -29,7 +29,7 @@ const MODEL_CONFIG = {
     MAX_TOKENS: 64,
   },
   GAIA: {
-    NAME: "qwen1.5-0.5b-chat",
+    NAME: "qwen2-0.5b-instruct",
   },
 };
 const RETRY_CONFIG = {
