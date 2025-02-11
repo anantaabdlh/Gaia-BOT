@@ -30,7 +30,17 @@ cd Gaia-BOT
 2. Install dependencies:
 
 ```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+echo 'export NVM_DIR="$HOME/.nvm"' >> $HOME/.bash_profile
+echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm' >> $HOME/.bash_profile
+echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion' >> $HOME/.bash_profile
+
+source $HOME/.bash_profile
+nvm install --lts
+node -v
+npm -v
 npm install
+npm intall openai
 ```
 
 3. edit configuration files:
@@ -39,14 +49,9 @@ npm install
 
 ### 1. Gaianet Setup
 
-1. Register at [Gaianet](https://www.gaianet.ai/gaia-domain-name?referralCode=R5NUx0)
-2. Install node
-3. After install node go to `https://your node id.gaia.domains`
-4. Open browser Developer Tools (F12)
-5. Send one test message
-6. In Network tab, find request to `/v1/chat/completions`
-7. From request headers, copy the Bearer token value
-8. Paste the token into `data.txt`
+1. Go to [Gaia Apikey](https://www.gaianet.ai/gaia-domain-name?referralCode=R5NUx0)
+2. Create Api key
+3. Paste the token into `data.txt`
 
 ### 2. OPENAI Setup
 
